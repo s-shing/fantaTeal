@@ -61,7 +61,11 @@ body{
   background-color: var(--chat-color);
   margin-left:-4px;
   }
+  /*playable popuout bg*/
+  .contentWrapper_f7506e{
+    background-color: var(--chat-color);
 
+  }
 
 .wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_c5f96a.selected_ae80f7 .childWrapper_a6ce15, .circleIconButton_db6521.selected_db6521{
   background-color:var(--bright-color);
@@ -76,7 +80,7 @@ body{
 
 }
  
-.container_a4d4d9, .base_a4d4d9,.theme-dark .container_ee69e0, .sidebar_a4d4d9, .theme-dark .chat_a7d72e, .content_a7d72e {
+.container_a4d4d9,  .base_a4d4d9,.theme-dark .container_ee69e0, .sidebar_a4d4d9, .theme-dark .chat_a7d72e, .content_a7d72e {
   
   background-color: var(--bg-color);
 }
@@ -146,6 +150,7 @@ button.button_ae40a4, span.button_ae40a4, .icon_ae0b42, .icon_a3b500 {
 }
 .chatContent_a7d72e{
   margin: var(--half-space);
+  margin-top: var(--standard-space);
   margin-bottom: var(--standard-space);
   margin-right: var(--standard-space);
   border: var(--border-size) solid var(--main-color);
@@ -153,7 +158,9 @@ button.button_ae40a4, span.button_ae40a4, .icon_ae0b42, .icon_a3b500 {
   background-color: var(--chat-color);
 }
 
-
+.container_c64476{
+  background-color: var(--chat-color);
+}
 
 .members_cbd271{
 margin: var(--half-space);
@@ -174,8 +181,10 @@ margin-left:0px;
   margin-top:-8px;
 }
 
-.theme-dark .themed_e44302{
- margin: var(--half-space);
+
+/* title */
+.theme-dark .themed_fc4f04{
+  margin-bottom: 0px;
   margin-top: var(--standard-space);
   margin-right: var(--standard-space);
   border: var(--border-size) solid var(--main-color);
@@ -193,14 +202,6 @@ margin-left:0px;
   background-color: var(--chat-color);
 }
 
-.container__3673d{
-  margin: var(--half-space);
-  margin-bottom: var(--standard-space);
-  border: var(--border-size) solid var(--main-color);
-  border-radius: var(--border-radius);
-  background-color: var(--chat-color);
-  
-}
 .subtitleContainer_a7d72e, .chat__52833{
   background: var(--bg-color);
 }
@@ -213,7 +214,7 @@ margin-left:0px;
   background-color: var(--dark-color);
   z-index:1000000000000000000000000000000000;
 }
-.channelTextArea_d0696b {
+.channelTextArea_a7d72e{
   background-color: transparent;
   border-radius: var(--border-radius);
   
@@ -247,7 +248,7 @@ margin-left:0px;
 
 }
 
-.themedBackground_d0696b{
+.themedBackground_bdf0de, .button_df39bd{
   background: var(--dark-color)
 }
 .buttons_d0696b, .attachWrapper_f298d4{
@@ -288,7 +289,7 @@ margin-left:0px;
   border: var(--border-size) solid var(--main-color);
   border-radius: 50%;
 }
- .membersGroup_cbd271, .actions_bd37ed{
+  .actions_bd37ed{
   color: var(--main-color);
 }
 .cozy_ec86aa .timestamp_ec86aa, .content_fc5f50{
@@ -328,10 +329,11 @@ border-radius: var(--small-radius);
   margin-right:var(--standard-space);
   height:98.3%;
 }
-.container__3673d{
+/* compass thingy on guild bar*/
+.listItem_c96c45, .footer_d71945{
   background-color: var(--chat-color);
 }
-.interactive__0786a:hover, .wrapper__612a5:hover .link_ddbb36, .peopleListItem_d51464:hover, .peopleListItem_dab480.active__6b8ff{
+.interactive__0786a:hover, .wrapper__612a5:hover .link_ddbb36, .listItem_c96c45:hover, .peopleListItem_dab480.active__6b8ff{
   background-color: var(--dark-color);
 }
 
@@ -390,7 +392,7 @@ border-radius: var(--small-radius);
 }
 
 .container_cbd271{
-  background-color: var(--chat-color);
+  background-color: var(--bg-color);
 }
 
 .contentRegionScroller_c25c6d, .sidebarRegionScroller_c25c6d{
