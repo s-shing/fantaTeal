@@ -73,10 +73,10 @@ body{
   }
 
 .wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_c5f96a.selected_ae80f7 .childWrapper_a6ce15, .circleIconButton_db6521.selected_db6521{
-  background-color:var(--bright-color);
+  background-color:var(--bright-color)!important;
 }
 .wrapper_f90abb .childWrapper_f90abb, .actionButton__2b4bb,.emptyCard__204d9{
-  background-color:var(--main-color);
+  background-color:var(--main-color)!important;
 
 }
 
