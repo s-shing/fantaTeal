@@ -189,22 +189,31 @@ margin-left:0px;
 }
 
 /* title */
-.theme-dark .themed_fc4f04{
-  border-radius: var(--border-radius);
-  background-color: var(--chat-color);
-  width:100%;
+.container_fc4f04 {
+  padding-left:var(--half-space);
+  background-color: var(--bg-color) !important;
+
+}
+.subtitleContainer_a7d72e, .theme-dark .themed_fc4f04{
+  background-color: var(--bg-color) !important;
 
 }
 
-.subtitleContainer_a7d72e{
-  margin-right:var(--standard-space) !important;
-  margin-bottom: 0px;
-  margin-top: var(--standard-space);
-  margin-right: 0px;
+.children_fc4f04{
+  padding: 10px;
+  margin-bottom: -8px;
   border: var(--border-size) solid var(--main-color);
   border-radius: var(--border-radius);
-  background-color: var(--chat-color);
+  background-color: var(--chat-color) !important;
 
+}
+.toolbar_fc4f04{
+  padding: 10px;
+  margin-bottom: -8px;
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color) !important;
+  margin-left:var(--standard-space);
 }
 
 .peopleColumn__0c784{
