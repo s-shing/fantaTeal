@@ -1,3 +1,4 @@
+
 @font-face{font-family:Whitney;font-style:normal;font-weight:500;src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/cf4a8a10bbdf9b775fad41e0b9921c84.woff2) format("woff2")}
 
 
@@ -134,10 +135,17 @@ body{
   background-color: var(--bg-color);
 }
 /* one of these is dms sidebar search*/
-.search__97492, .searchBarComponent__35e86, .emptyText__1464f, .searchBar__97492, .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root{
+.search__97492, .searchBarComponent__35e86,  .searchBar__97492, .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root{
   background-color:var(--main-color)!important;
 
   color: var(--white-color)!important;
+}
+.placeholder__1b31f{
+  color: var(--main-color)!important;
+
+}
+.overflow__82b15{
+  color:var(--bright-color);
 }
 .search__97492{
   border-radius: var(--small-radius);
@@ -410,7 +418,7 @@ margin-top: 0px;
   background: var(--chat-color) !important;
 
 } */
-.visual-refresh .slateTextArea_ec4baf, .visual-refresh .topic__6ec1a{
+.visual-refresh .topic__6ec1a{
   color: var(--main-color);
 }
 
