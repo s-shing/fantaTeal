@@ -1,5 +1,5 @@
 
-.theme-dark, .theme-light {
+.theme-dark, .theme-light, .visual-refresh .theme-dark, .visual-refresh .theme-dark {
   --main-color: #005153;
   --bright-color: #00c4a3;
   --white-color: #d7e2e2;
@@ -12,10 +12,10 @@
   --small-radius:5px;
   --border-size: 2px;
   --border-radius: 15px;
-  --channels-default: var(--white-color); 
   --interactive-text-active: var(--white-color) !important;
   --text-muted: #005153 !important;
   --text-subtle: #005153 !important;
+  --channels-default: #00c4a3 !important;
 }
 
 
@@ -509,9 +509,8 @@ margin-top: 0px;
   border-radius: var(--border-radius);
   background-color: var(--chat-color);
 }
-.visual-refresh .root__49fc1 div{
-  padding-right:5px;
-
+.actionButtons_cc1819, .buttonInner_aec7ab{
+    background-color: var(--chat-color);
 }
 
 .themedBackground__74017, .button_df39bd{
@@ -978,3 +977,4 @@ border-radius: var(--border-radius);
   --chat-text-muted: var(--bright-color) !important;
   --background-floating: var(--bright-color) !important;
 }
+
